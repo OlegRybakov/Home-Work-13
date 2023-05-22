@@ -449,7 +449,7 @@ header {
 .offer {
   padding-top: 241px;
   padding-bottom: 161px;
-  background: url("/img/photo_main-offer.jpg") center no-repeat;
+  background: url("/img/photo_main-offer_background.jpg") center no-repeat;
   color: #fff;
   line-height: 1.5;
 }
@@ -795,6 +795,9 @@ header {
   line-height: 1.5;
   margin: 0;
 }
+.faq .faq__svg {
+  margin-right: 20px;
+}
 .faq .faq__other {
   display: flex;
   align-items: flex-start;
@@ -889,70 +892,6 @@ header {
   font-size: 12px;
   line-height: 2.5;
   color: var(--accent-dark-color);
-}
-
-.btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 250px;
-  min-height: 40px;
-  box-sizing: border-box;
-  border: 3px solid transparent;
-  border-radius: var(--border-radius);
-  background: var(--accent-dark-color);
-  color: var(--color-text);
-  font-size: 18px;
-  line-height: 1.5;
-  cursor: pointer;
-}
-.btn_bordered {
-  border-color: var(--accent-dark-color);
-  background: transparent;
-}
-.btn_bordered:hover {
-  background: var(--accent-dark-color);
-}
-.btn:hover {
-  border-color: var(--accent-dark-color);
-  background: transparent;
-}
-
-.send__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 250px;
-  min-height: 40px;
-  box-sizing: border-box;
-  border: 3px solid transparent;
-  border-radius: var(--border-radius);
-  background: var(--accent-dark-color);
-  color: var(--color-text);
-  font-size: 18px;
-  line-height: 1.5;
-  cursor: pointer;
-  border-color: var(--accent-dark-color);
-}
-
-.record__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 370px;
-  min-height: 40px;
-  box-sizing: border-box;
-  border: 3px solid transparent;
-  border-radius: var(--border-radius);
-  background: var(--accent-dark-color);
-  color: var(--color-text);
-  font-size: 18px;
-  line-height: 1.5;
-  cursor: pointer;
-  border-color: var(--accent-dark-color);
 }
 
 .footer {
